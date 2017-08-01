@@ -1,0 +1,55 @@
+.login {
+    height: 100%;
+    width: 100%;
+    background-image: url("./assets/login.jpg");
+    box-sizing: border-box;
+    margin: 0px;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#dashboard {
+    background-color: #141D24;
+    margin: 0 auto;
+    margin-top: 130px;
+    height: 350px;
+    width: 380px;
+}
+
+#login {
+    padding-left: 80px;
+    padding-top: 50px;
+}
+
+#cdpLogo {
+    color: white;
+    padding-left: 40px;
+    width: 150px;
+}
+
+#forgotPWD {
+    font-size: smaller;
+    color: white;
+    padding-left: 50px;
+}
+
+#ciscoLogo {
+    width: 70px;
+    padding-left: 85px;
+}
+
+input {
+    width: 190px;
+    height: 25px;
+    padding-left: 30px;
+}
+
+.btn {
+    width: 226px;
+    height: 31px;
+    background-color: #1ea6fd;
+    border: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+}

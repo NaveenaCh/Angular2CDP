@@ -1,0 +1,102 @@
+.mainDiv {
+    margin: 0px;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(43, 41, 41, 0.85);
+}
+
+hr {
+    color: red;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.div1 {
+    height: 8%;
+    width: 100%;
+}
+
+.div2 {
+    height: 90%;
+    width: 100%;
+    color:red;
+}
+
+.div11 {
+    height: 100%;
+    width: 40%;
+    float: left;
+}
+
+.div12 {
+    height: 100%;
+    width: 50%;
+    float: left;
+}
+
+button {
+    height: 100%;
+    width: 19%;
+}
+button.active{
+    background-color:#b3adaa;
+}
+button:hover{
+    background-color:#c5c5c5;
+}
+.div13 {
+    height: 100%;
+    width: 10%;
+    float: left;
+}
+
+#alarm {
+    width: 20px;
+    padding-right: 11px;
+    padding-left: 28px;
+    padding-top: 15px;
+}
+
+#settings {
+       width: 22px;
+    padding-top: 12px;
+}
+
+#div111 {
+    float: left;
+}
+
+#div112 {
+    padding-left: 50px;
+    padding-bottom: 6px;
+    padding-top: 6px;
+    border: 1px solid #696262;
+    float: left;
+    margin-top: 9px;
+    width: 150px;
+    margin-left: 10px;
+    color: #61a3d8;
+}
+
+#div113 {
+
+    padding-left: 10px;
+    padding-top: 8px;
+    float: left;
+    margin-top: 4px;
+}
+
+select {
+       border-radius: 15px;
+    background-color: #9E9E9E;
+    width: 220px;
+    height: 30px;
+}
+
+#cicsoLogo {
+    width: 60px;
+    padding-top: 8px;
+}
+regionBox{
+
+}

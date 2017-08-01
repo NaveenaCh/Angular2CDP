@@ -1,0 +1,53 @@
+<div class="mainDiv">
+    <div class="div1">
+        <div class="div11">
+            <div id="div111">
+                <img [src]="ciscoLogo" id="cicsoLogo">
+            </div>
+            <div id="div112">
+        Cisco Group
+            <!--     <div class='regionBox'>hello</div> -->
+            </div>
+            <div id="div113">
+                <select>
+                    <option value="india">India</option>
+                    <option value="usa">USA</option>
+                    <option value="rasia">RASIA</option>
+                    <option value="china">CHINA</option>
+                </select>
+            </div>
+        </div>
+        <div class="div12">
+            <button  routerLink="/mainPage/dashboard" routerLinkActive="active">Dashboard</button>
+            <button routerLink="/mainPage/mapview" routerLinkActive="active">MapView</button>
+            <button routerLink="/mainPage/policies" routerLinkActive="active">Policies</button>
+            <button routerLink="/mainPage/events" routerLinkActive="active">Events</button>
+            <button routerLink="/mainPage/reports" routerLinkActive="active">Reports</button> 
+        </div>
+        <div class="div13">
+            <a [src]="AlarmIcon" id="alarm">
+            <a [src]="SettingsIcon" id="settings">
+        </div>
+    </div>
+
+    <hr>
+
+    <div class="div2">
+<!--     <div [hidden]='!MapView'>
+         <sebm-google-map  [latitude]="lat" [longitude]="lng"></sebm-google-map>
+    </div>
+        <div [hidden]='!Dashboard'>
+        dashbord
+    </div>
+        <div [hidden]='!Policies'>
+        policies
+    </div>
+        <div [hidden]='!Events'>
+         events
+    </div>
+        <div [hidden]='!Reports'>
+         reports
+    </div> -->
+       <router-outlet></router-outlet>
+    </div>
+</div>

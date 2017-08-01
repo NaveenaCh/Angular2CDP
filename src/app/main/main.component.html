@@ -1,0 +1,39 @@
+ 
+<div class="login">
+    <!--     <nav>
+        <a routerLink="/mainPage" routerLinkActive="active">main page</a>
+    </nav> -->
+
+    <div id="dashboard">
+        <div id="login">
+            <div>
+                <img id="cdpLogo" [src]="CdpLogo" />
+            </div>
+            <br>
+            <form >
+                <div>
+                <!--     <img [src]="MailIcon"> -->
+                <input type="text" [(ngModel)]="email" name="email" placeholder="Enter Email">
+            </div>
+            <br>
+            <div>
+                <!-- <img [src]="PWDIcon"> -->
+            <input type="password" [(ngModel)]="password" name="password" placeholder="Enter Password">
+            </div>
+            <br>
+            <div>
+            <input type="button" class="btn" (click)="onClicked(email,password)" value="Login">
+                <!-- <button (click)="onClicked(email,password)"> -->
+            </div> 
+            </form>
+            <br>
+            <div id="forgotPWD">
+                <a>Forgot your password?</a>
+            </div>
+            <br>
+            <div>
+                <img id="ciscoLogo" [src]="CiscoLogo" />
+            </div>
+        </div>
+    </div>
+</div>

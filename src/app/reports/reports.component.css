@@ -1,0 +1,31 @@
+.policyHeader {
+    height: 44px;
+    background-color: #8a8383;
+}
+
+.policyBody {}
+.PoliciesMenu {
+    width: 20px;
+    height: 20px;
+    padding-top: 11px;
+    padding-left: 17px;
+    float: left;
+}
+
+span {
+    float: left;
+    color: white;
+    padding-left: 8px;
+    padding-top: 11px;
+    font-size: larger;
+}
+.rightDiv {
+    float: right;
+}
+.help {
+    float: right;
+    width: 28px;
+    padding-top: 10px;
+    padding-right: 5px;
+    padding-left: 5px;
+}
